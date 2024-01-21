@@ -1,11 +1,11 @@
-## Showman
+## Shoman Software Mentorship
 
-Shoman was a software engineering Mentorship program which was run by a group of software engineers between 2019 - 2021. The program had a success of mentees joining tech and others acquiring internships. The program was stopped due to time commitment challenges by the mentors. We hoping to revive this program in the near future
+Shoman was a software engineering Mentorship program that was run by a group of software engineers between 2019 - 2021. The program had a success of mentees joining tech and others acquiring internships. The program was stopped due to time commitment challenges by the mentors. We hope to revive this program shortly
 
 ### Some of the features were:
 
-- Mentees submit application to join Shoman mentorship program
-- Mentees track their learning on Shoman dashboard
+- Mentees submit applications to join the Shoman mentorship program
+- Mentees track their learning on the Shoman dashboard
 - Mentors manage the assigned mentees through the Shoman dashboard
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f76ed40d-0119-4db7-8d12-929189787cc7/deploy-status)](https://app.netlify.com/sites/shoman/deploys)
@@ -13,7 +13,7 @@ Shoman was a software engineering Mentorship program which was run by a group of
 ## Tools
 
 - React
-- GatsBy
+- Gatsby
 - Material-UI
 - Node JS
 - Mongo DB
@@ -64,19 +64,19 @@ Shoman was a software engineering Mentorship program which was run by a group of
 
 ## How To Contribute
 
-\*_Contributions are closed at the moment for this program_, nevertheless, you can still use this repo for your own purposes\*
+\*_Contributions are closed at the moment for this program_, nevertheless, you can still use this repo for your purposes\*
 
 - Fork this repo or just clone the project to your own machine
 - install dependencies, `yarn`
-- Work on your fork/clone, Create a new branch, make your changes and additions on your branch(Branch naming, e.g. issueType/#issue-name-issue-no -> **feat/mentor-side-dashboard-#12**)
+- Work on your fork/clone, Create a new branch, and make your changes and additions on your branch(Branch naming, e.g. issue type/#issue-name-issue-no -> **feat/mentor-side-dashboard-#12**)
 - Commit changes
 - Make sure you merge the latest from "upstream" and - resolve conflicts if there is any(on forks)
 - Push your work back up to the fork/clone origin
 - Submit a Pull request so that we can review your changes
 
-### firing up the dev environment
+### Firing up the dev environment
 
-- Make sure you've gatsby installed globally, `npm install -g gatsby-cli`.
+- Make sure you've Gatsby installed globally, `npm install -g gatsby-cli`.
 - Install the latest version of nodejs
 - Check specific instructions of
 
