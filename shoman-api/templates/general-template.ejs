@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shoman Codes</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body style="margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background: #F9F9F9;">
+    <div id="email-header" style="background-color: #F9F9F9; margin-top: 40px;">
+        <div id="email-header-first" style=" max-width: 640px; margin: 0 auto; box-shadow: 0 0.375em 0.375em -0.125em rgba(119, 119, 119, 1); border-radius: 4px 4px 0 0; overflow: hidden;">
+            <div id="header-first-child" style="margin: 0px auto; max-width: 640px; background: #1890ff;">
+                <table role="presentation" cellpadding="0" cellspacing="0" align="center" border="0">
+                    <tbody>
+                        <tr>
+                            <td id="first-child-data" style="text-align: center; vertical-align: top; direction: ltr; font-size: 0px; padding:57px;">
+                                <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td id="first-child-table" style="vertical-align :undefined; width:640px;">
+                                            <div
+                                                id="first-child-table-div"
+                                                style="cursor: auto; color:white; font-family: Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif; font-size: 36px; font-weight: 600; line-height: 36px; text-align:center;"
+                                            >
+                                                <%- header %>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="email-content" style="margin: 0px auto; max-width: 640px; background:#ffffff;">
+        <table id="email-content-first" style="font-size: 0px; width: 100%; background:#ffffff; border: 0;" role="presentation" cellpadding="0" cellspacing="0" align="center">
+            <tbody>
+                <tr>
+                    <td id="email-content-first-child" style="text-align: center; vertical-align: top; direction: ltr; font-size: 0px; padding:40px 70px;">
+                        <div id="email-content-first-child-data" style="vertical-align: top; display: inline-block; direction: ltr; font-size: 13px; text-align: left; width:100%;">
+                            <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                <tbody>
+                                    <tr>
+                                        <td id="content-table-data" align="left" style="word-break: break-word; font-size: 0px; padding:0px 0px 20px;">
+                                            <div
+                                                id="content-table-div"
+                                                style="cursor: auto; color:#737F8D; font-family: Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif; font-size: 16px; line-height: 24px; text-align:left;"
+                                            >
+                                                <h2
+                                                    id="content-name"
+                                                    style="font-family: Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif; font-weight: 500; font-size: 20px; color: #4F545C; letter-spacing: 0.27px;"
+                                                >
+                                                    Hi <%- name %>,
+                                                </h2>
+                                                <p><%- body %></p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td id="content-table-data-2" style="word-break: break-word; font-size: 0px; padding: 10px 25px;">
+                                            <table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:separate;" align="center" border="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td id="table-data-child" style="border: none; border-radius: 3px; color:white; cursor: auto; padding: 15px 19px;" bgcolor="#1890ff">
+                                                            <a
+                                                                id="verify-link"
+                                                                style="text-decoration: none; line-height: 100%; background:#1890ff; color:white; font-family:Ubuntu, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: normal; text-transform: none; margin: 0px;"
+                                                                href="<%- ctaLink %>"
+                                                                target="_blank"
+                                                            >
+                                                                <%- ctaText %>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

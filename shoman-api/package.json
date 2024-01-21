@@ -1,0 +1,57 @@
+{
+  "name": "showman-api",
+  "version": "1.0.0",
+  "description": "An api for the showman-api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js",
+    "start": "node dist/index.js",
+    "build": "babel ./src -d dist --copy-files",
+    "serve": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruiru11/Showman-Api.git"
+  },
+  "author": "Erastus Ruriru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ruiru11/Showman-Api/issues"
+  },
+  "homepage": "https://github.com/Ruiru11/Showman-Api#readme",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chalk": "^3.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.7.0",
+    "googleapis": "^65.0.0",
+    "html-minifier": "^4.0.0",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.17",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.4.16",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^2.0.2",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "husky": "^4.3.0",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
