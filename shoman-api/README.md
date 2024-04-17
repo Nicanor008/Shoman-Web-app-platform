@@ -1,5 +1,8 @@
 ## Shoman-API
 
+## Documentation
+Check out this [Postman Collection](https://www.postman.com/nicanorkorir/workspace/shoman-api/documentation/4992083-59d5606f-4e0e-42f3-9070-30e543bc2116?entity=request-4992083-8ad5e4d6-f054-4ac6-88a2-2f99cd55864f)
+
 ## 🖇 How to Start
 
 -   Git clone
